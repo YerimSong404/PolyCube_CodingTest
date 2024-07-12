@@ -1,0 +1,8 @@
+datasource:
+  url: jdbc:h2:tcp://localhost/~/user
+  username: pc
+  password : 2024
+  driver-class-name: org.h2.Driver
+jpa:
+  hibernate:
+    ddl-auto: create
